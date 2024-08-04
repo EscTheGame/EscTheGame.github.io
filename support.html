@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Esc. | Support</title>
+    <link rel="icon" href="ESC.(1).png">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Righteous">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <style>
+        body {
+            background-color: #1d1a20;
+            font-family: 'Righteous', sans-serif;
+            color: white;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        header img {
+            height: 80px;
+            margin-left: 40px;
+        }
+
+        header {
+            background-color: #0e0e0e;
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 80px;
+            display: flex;
+            align-items: center;
+            box-shadow: 0 0 25px 0 black;
+            z-index: 1000; /* Ensure header is above other content */
+        }
+
+        header * {
+            display: inline;
+        }
+
+        header li {
+            margin: 20px;
+        }
+
+        header li a {
+            color: white;
+            text-decoration: none;
+        }
+
+        a:hover {
+            color: #c83d3d;
+        }
+
+        a { 
+            color: white; 
+            text-decoration: none;
+        }
+
+        main {
+            margin-top: 120px;
+            padding: 20px;
+        }
+
+        .centered {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        .btn {
+            background-color: #c83d3d;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            font-size: 18px;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+
+        .btn:hover {
+            background-color: #a32d2d;
+        }
+
+        footer {
+            background-color: #0e0e0e;
+            padding: 20px;
+            text-align: center;
+            margin-top: 20px;
+            box-shadow: 0 -5px 10px 0 black;
+        }
+
+        .faq-section {
+            margin-top: 40px;
+        }
+
+        .faq-section h2 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .faq {
+            background-color: #2a2a2a;
+            padding: 15px;
+            border-radius: 5px;
+            margin-bottom: 10px;
+        }
+
+        .faq h3 {
+            margin: 0 0 10px 0;
+            font-size: 20px;
+        }
+
+        .faq p {
+            margin: 0;
+        }
+
+        @media (max-width: 768px) {
+            header {
+                flex-direction: column;
+                height: auto;
+                padding: 20px;
+            }
+
+            nav ul {
+                flex-direction: column;
+            }
+
+            nav ul li {
+                margin: 10px 0;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="ESC.(3).png" alt="Esc. Logo">
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="news.html">News</a></li>
+                <li><a href="support.html">Support</a></li>
+                <li><a href="social.html">Socials</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="centered">
+            <h1>Contact Us</h1>
+            <p><a href="mailto:esc.apethegamee@gmail.com">Email The Team</a></p>
+        </div>
+
+        <div class="centered">
+            <p id="myText">esc.apethegamee@gmail.com</p>
+            <button class="btn" onclick="copyContent()">Copy!</button>
+        </div>
+
+        <div class="faq-section">
+            <h2>Frequently Asked Questions</h2>
+            <!-- Existing FAQs -->
+            <div class="faq">
+                <h3>How can I report a bug?</h3>
+                <p>You can report bugs by emailing us at <a href="mailto:esc.apethegamee@gmail.com">esc.apethegamee@gmail.com</a>.</p>
+            </div>
+            <div class="faq">
+                <h3>What platforms is the game available on?</h3>
+                <p>Esc. | The Game is available on PC, Mac, and mobile devices.</p>
+            </div>
+            <div class="faq">
+                <h3>How do I save my progress?</h3>
+                <p>The game automatically saves your progress. Make sure to be connected to the internet to ensure your progress is saved to the cloud.</p>
+            </div>
+            <div class="faq">
+                <h3>Can I play with friends?</h3>
+                <p>Yes, Esc. | The Game supports multiplayer mode. You can invite your friends to play together.</p>
+            </div>
+            <div class="faq">
+                <h3>Are there any in-game purchases?</h3>
+                <p>Yes, the game offers in-game purchases for cosmetic items and additional content. However, these purchases are optional and do not affect gameplay.</p>
+            </div>
+            <div class="faq">
+                <h3>How can I reset my account?</h3>
+                <p>If you need to reset your account, please contact our support team at <a href="mailto:esc.apethegamee@gmail.com">esc.apethegamee@gmail.com</a>.</p>
+            </div>
+            <div class="faq">
+                <h3>What are the system requirements for the game?</h3>
+                <p>The minimum system requirements are:
+                   <ul>
+                       <li>OS: Windows 10 / macOS 10.13</li>
+                       <li>Processor: Intel Core i5 or equivalent</li>
+                       <li>Memory: 8 GB RAM</li>
+                       <li>Graphics: NVIDIA GeForce GTX 660 or equivalent</li>
+                       <li>Storage: 10 GB available space</li>
+                   </ul>
+                </p>
+            </div>
+
+            <!-- Additional FAQs -->
+            <div class="faq">
+                <h3>Is there a mobile version of the game?</h3>
+                <p>Yes, Esc. | The Game has a mobile version available for both Android and iOS devices.</p>
+            </div>
+            <div class="faq">
+                <h3>Can I change my in-game username?</h3>
+                <p>Currently, there is no option to change your username after initial setup. We are working on implementing this feature in a future update.</p>
+            </div>
+            <div class="faq">
+                <h3>How often do you release updates?</h3>
+                <p>We aim to release updates regularly, typically every month. These updates include bug fixes, new features, and improvements.</p>
+            </div>
+            <div class="faq">
+                <h3>Is there a single-player mode?</h3>
+                <p>Yes, Esc. | The Game offers a rich single-player experience in addition to its multiplayer mode.</p>
+            </div>
+            <div class="faq">
+                <h3>What languages is the game available in?</h3>
+                <p>Currently, the game is available in English, Spanish, French, German, and Chinese. We plan to add more languages in future updates.</p>
+            </div>
+            <div class="faq">
+                <h3>Can I stream or create content using gameplay footage?</h3>
+                <p>Yes, you are welcome to stream, create videos, and share gameplay footage of Esc. | The Game. We encourage community content creation!</p>
+            </div>
+            <div class="faq">
+                <h3>How can I provide feedback or suggestions?</h3>
+                <p>We appreciate your feedback! You can send us your suggestions and feedback via email at <a href="mailto:esc.apethegamee@gmail.com">esc.apethegamee@gmail.com</a>.</p>
+            </div>
+            <div class="faq">
+                <h3>Are there any age restrictions to play the game?</h3>
+                <p>Esc. | The Game is recommended for players aged 13 and above. Parental discretion is advised for younger players.</p>
+            </div>
+            <div class="faq">
+                <h3>Is there a support community or forum?</h3>
+                <p>Yes, we have an active community forum where players can discuss the game, share tips, and connect with other players. You can find the link on our official website.</p>
+            </div>
+            <div class="faq">
+                <h3>Are there plans for downloadable content (DLC)?</h3>
+                <p>Yes, we plan to release downloadable content (DLC) packs in the future, adding new levels, characters, and story elements to the game.</p>
+            </div>
+            <div class="faq">
+                <h3>How can I change my email associated with the game?</h3>
+                <p>To change your email address, please contact our support team at <a href="mailto:esc.apethegamee@gmail.com">esc.apethegamee@gmail.com</a> with your current and new email addresses.</p>
+            </div>
+            <div class="faq">
+                <h3>What should I do if I encounter a payment issue?</h3>
+                <p>If you encounter any issues with in-game purchases, please contact our support team with details of the transaction for assistance.</p>
+            </div>
+            <div class="faq">
+                <h3>Can I play the game on older devices?</h3>
+                <p>While the game is optimized for modern devices, it may still run on older hardware with reduced performance. Check the minimum system requirements for more details.</p>
+            </div>
+            <div class="faq">
+                <h3>Are there any plans for console versions?</h3>
+                <p>We are currently exploring the possibility of releasing Esc. | The Game on various gaming consoles. Stay tuned for future announcements!</p>
+            </div>
+            <div class="faq">
+                <h3>How do I update the game?</h3>
+                <p>The game will prompt you when an update is available. You can also manually check for updates in the settings menu.</p>
+            </div>
+            <div class="faq">
+                <h3>Can I transfer my game progress to another device?</h3>
+                <p>Yes, as long as you are connected to the internet and your progress is saved to the cloud, you can transfer your progress by logging into your account on the new device.</p>
+            </div>
+            <div class="faq">
+                <h3>What should I do if the game crashes?</h3>
+                <p>If the game crashes, try restarting your device and launching the game again. If the problem persists, contact our support team with details of the crash.</p>
+            </div>
+            <div class="faq">
+                <h3>Is there an offline mode?</h3>
+                <p>Yes, you can play the single-player mode offline. However, certain features and multiplayer mode require an internet connection.</p>
+            </div>
+            <div class="faq">
+                <h3>How can I reset my password?</h3>
+                <p>To reset your password, click on the "Forgot Password" link on the login page and follow the instructions.</p>
+            </div>
+            <div class="faq">
+                <h3>Are there any parental controls?</h3>
+                <p>Yes, the game includes parental controls to restrict in-game purchases and limit gameplay time.</p>
+            </div>
+            <div class="faq">
+                <h3>What should I do if my account is hacked?</h3>
+                <p>If you suspect your account has been hacked, contact our support team immediately to secure your account and prevent unauthorized access.</p>
+            </div>
+            <div class="faq">
+                <h3>Can I customize my character?</h3>
+                <p>Yes, the game offers a variety of customization options for your character, including appearance, outfits, and accessories.</p>
+            </div>
+            <div class="faq">
+                <h3>How do I join a multiplayer game?</h3>
+                <p>To join a multiplayer game, select the multiplayer option from the main menu and choose from available lobbies or create your own.</p>
+            </div>
+            <div class="faq">
+                <h3>Is there a tutorial for new players?</h3>
+                <p>Yes, the game includes a comprehensive tutorial to help new players learn the controls and gameplay mechanics.</p>
+            </div>
+            <div class="faq">
+                <h3>Can I link my game account to social media?</h3>
+                <p>Yes, you can link your game account to your social media profiles to share achievements and connect with friends.</p>
+            </div>
+            <div class="faq">
+                <h3>What if I encounter a glitch or bug?</h3>
+                <p>If you encounter a glitch or bug, please report it to our support team with a detailed description and any relevant screenshots or videos.</p>
+            </div>
+            <div class="faq">
+                <h3>Are there any seasonal events?</h3>
+                <p>Yes, the game features seasonal events with special challenges and rewards. Keep an eye on our announcements for upcoming events.</p>
+            </div>
+            <div class="faq">
+                <h3>How do I change the game language?</h3>
+                <p>You can change the game language in the settings menu. Select your preferred language from the available options.</p>
+            </div>
+            <div class="faq">
+                <h3>Can I play the game on multiple devices simultaneously?</h3>
+                <p>No, you can only be logged into one device at a time. Logging in on another device will log you out of the first one.</p>
+            </div>
+            <div class="faq">
+                <h3>How do I mute other players in multiplayer mode?</h3>
+                <p>You can mute other players in the multiplayer settings menu by selecting the mute option next to their usernames.</p>
+            </div>
+            <div class="faq">
+                <h3>What are the different game modes available?</h3>
+                <p>The game offers several modes, including single-player, multiplayer, and special event modes.</p>
+            </div>
+            <div class="faq">
+                <h3>Can I request a refund?</h3>
+                <p>Refunds are handled on a case-by-case basis. Please contact our support team with your purchase details for assistance.</p>
+            </div>
+            <div class="faq">
+                <h3>How can I improve my in-game performance?</h3>
+                <p>To improve performance, ensure your device meets the system requirements, close unnecessary background applications, and adjust in-game graphics settings.</p>
+            </div>
+            <div class="faq">
+                <h3>Where can I find the community forum?</h3>
+                <p>You can find the link to our community forum on the official website under the "Community" section.</p>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>Esc. | The Game &copy; 2024</p>
+    </footer>
+
+    <script>
+        function copyContent() {
+            const text = document.getElementById('myText').textContent;
+            navigator.clipboard.writeText(text)
+                .then(() => alert('Copied to clipboard!'))
+                .catch(err => alert('Failed to copy text: ', err));
+        }
+    </script>
+</body>
+</html>
